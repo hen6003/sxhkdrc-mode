@@ -8,4 +8,4 @@
   "major mode for syntax highlighting of sxhkrc."
   (setq font-lock-defaults '(sxhkdrc-highlights)))
 
-(add-to-list 'auto-mode-alist '("\\sxhkdrc\\'" . sxhkdrc-mode))
+(add-to-list 'auto-mode-alist '("sxhkdrc" . sxhkdrc-mode))
