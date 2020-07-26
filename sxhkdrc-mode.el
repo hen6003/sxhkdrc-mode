@@ -5,7 +5,7 @@
 		("+\\|;\\|{\\|,\\|}" . font-lock-string-face)))
 
 (define-derived-mode sxhkdrc-mode fundamental-mode "sxhkdrc"
-  "major mode for syntax highlighting of sxhkrc."
+  "major mode for syntax highlighting of sxhkdrc."
   (setq font-lock-defaults '(sxhkdrc-highlights)))
 
 (add-to-list 'auto-mode-alist '("sxhkdrc" . sxhkdrc-mode))
