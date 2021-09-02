@@ -9,3 +9,5 @@
    (setq font-lock-defaults '(sxhkdrc-highlights)))
 
 (add-to-list 'auto-mode-alist '("sxhkdrc" . sxhkdrc-mode))
+
+(provide 'sxhkdrc-mode)
